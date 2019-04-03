@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import {AppRoutingModule, routingComponents} from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { RaceComponent } from './race/race.component';
+import { RaceTableComponent } from './race-table/race-table.component';
 
 
 
@@ -13,7 +13,7 @@ import { RaceComponent } from './race/race.component';
   declarations: [
     AppComponent,
     routingComponents,
-    RaceComponent
+    RaceTableComponent
   ],
   imports: [
     BrowserModule,

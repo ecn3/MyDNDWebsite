@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RaceComponent } from './race.component';
+import { RaceTableComponent } from './race-table.component';
 
-describe('RaceComponent', () => {
-  let component: RaceComponent;
-  let fixture: ComponentFixture<RaceComponent>;
+describe('RaceTableComponent', () => {
+  let component: RaceTableComponent;
+  let fixture: ComponentFixture<RaceTableComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RaceComponent ]
+      declarations: [ RaceTableComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RaceComponent);
+    fixture = TestBed.createComponent(RaceTableComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
