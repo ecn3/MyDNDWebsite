@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import {AppRoutingModule, routingComponents} from './app-routing.module';
 
 import { AppComponent } from './app.component';
+import { RaceComponent } from './race/race.component';
 
 
 
@@ -11,7 +12,8 @@ import { AppComponent } from './app.component';
 @NgModule({
   declarations: [
     AppComponent,
-    routingComponents
+    routingComponents,
+    RaceComponent
   ],
   imports: [
     BrowserModule,
