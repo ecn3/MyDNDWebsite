@@ -5,6 +5,7 @@ import {AppRoutingModule, routingComponents} from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { RaceTableComponent } from './race-table/race-table.component';
+import { RaceRowComponent } from './race-row/race-row.component';
 
 
 
@@ -13,7 +14,8 @@ import { RaceTableComponent } from './race-table/race-table.component';
   declarations: [
     AppComponent,
     routingComponents,
-    RaceTableComponent
+    RaceTableComponent,
+    RaceRowComponent
   ],
   imports: [
     BrowserModule,
