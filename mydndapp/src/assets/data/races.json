@@ -1,3 +1,28 @@
 [
-    {"name":"Aarakocra", "subraces":"none", "title":"Players Companion", "publication":"PC", "page": "3", "img": "img/races/aarakocraDnd.jpg"}
-  ]
+    {"name":"Aarakocra", "subraces":"none", "title":"Players Companion", "publication":"PC", "page": "3", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Aasimar", "subraces":"Protector, Scourge, Fallen", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "104", "img": "img/races/aasimarDnd.jpg"},
+    {"name":"BugBear", "subraces":"none", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "119", "img": "img/races/bugbearDnd.jpg"},
+
+    {"name":"Dragonborn", "subraces":"none", "title":"Players Companion", "publication":"PH", "page": "32", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Dwarf", "subraces":"Hill, Moutain, Duergar", "title":"Players Companion", "publication":"PH/MTF", "page": "19/81", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Elf", "subraces":"High, Wood, Dark, Eldarin, Sea, Shadar-Kai", "title":"Players Companion", "publication":"PH/MTF", "page": "21/61", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Firbolg", "subraces":"none", "title":"Players Companion", "publication":"VGM", "page": "106", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Genasi", "subraces":"Air, Earth, Fire, Water", "title":"Players Companion", "publication":"PC", "page": "7", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Gith", "subraces":"Githyanki, Githzaria", "title":"Players Companion", "publication":"MTF", "page": "96", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Gnome", "subraces":"Forest, Rock, Deep", "title":"Players Companion", "publication":"PH/MTF", "page": "35/119", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Goblin", "subraces":"none", "title":"Players Companion", "publication":"VGM", "page": "119", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Goliath", "subraces":"Nne", "title":"Players Companion", "publication":"VGM", "page": "108", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Half-Elf", "subraces":"none", "title":"Players Companion", "publication":"PH", "page": "38", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Half-Orc", "subraces":"none", "title":"Players Companion", "publication":"PH", "page": "40", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Halfling", "subraces":"Lightfoot, Stout", "title":"Players Companion", "publication":"PH", "page": "26", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Hobgoblin", "subraces":"none", "title":"Players Companion", "publication":"VGM", "page": "119", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Human", "subraces":"Variant", "title":"Players Companion", "publication":"PH", "page": "29", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Kenku", "subraces":"none", "title":"Players Companion", "publication":"VGM", "page": "109", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Kobold", "subraces":"none", "title":"Players Companion", "publication":"VGM", "page": "119", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Lizardfolk", "subraces":"none", "title":"Players Companion", "publication":"VGM", "page": "111", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Orc", "subraces":"none", "title":"Players Companion", "publication":"VGM", "page": "120", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Tabaxi", "subraces":"none", "title":"Players Companion", "publication":"VGM", "page": "113", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Tiefling", "subraces":"none", "title":"Players Companion", "publication":"PH", "page": "42", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Triton", "subraces":"none", "title":"Players Companion", "publication":"VGM", "page": "115", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Yuan-Ti", "subraces":"none", "title":"Players Companion", "publication":"VGM", "page": "120", "img": "img/races/aarakocraDnd.jpg"}
+]
