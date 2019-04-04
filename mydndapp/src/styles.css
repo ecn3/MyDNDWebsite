@@ -7,7 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     font-size: 1.5rem;
-    background-image: url('../src/img/parchment-paper-cropped.jpg');
+    background-image: url('../src/assets/img/parchment-paper-cropped.jpg');
     background-attachment: fixed;
 }
 h2 {
