@@ -8,13 +8,16 @@
             <th>Image</th>
         </tr>
     </thead>
+
     <tbody>
-           
-        <ng-container *ngFor="let race of races">
-                <tr ng-repeat="let race of races">
-            <app-race-row [race]="race"></app-race-row>
-        </tr>
-        </ng-container>
-    
-    </tbody>
+    <ng-container *ngFor="let race of races">
+      
+            <tr ng-repeat="let race of races">
+               <td> <app-race-row [race]="race"></app-race-row></td>
+               <td> <app-race-row-subrace [race]="race"></app-race-row-subrace></td> 
+            </tr>
+       
+    </ng-container>
+ </tbody>
+
 </table>

@@ -13,6 +13,8 @@ import { ClassComponent } from './builder/header/class/class.component';
 import { LevelComponent } from './builder/header/level/level.component';
 import { RaceTableComponent } from './race-table/race-table.component';
 import { RaceRowComponent } from './race-row/race-row.component';
+import { RaceRowSubraceComponent } from './race-row-subrace/race-row-subrace.component';
+import { RaceRowRaceComponent } from './race-row-race/race-row-race.component';
 
 
 
@@ -29,7 +31,9 @@ import { RaceRowComponent } from './race-row/race-row.component';
     ClassComponent,
     LevelComponent,
     RaceTableComponent,
-    RaceRowComponent
+    RaceRowComponent,
+    RaceRowSubraceComponent,
+    RaceRowRaceComponent
   ],
   imports: [
     BrowserModule,
