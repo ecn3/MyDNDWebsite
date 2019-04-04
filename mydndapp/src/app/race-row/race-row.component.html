@@ -1,23 +1,12 @@
-<table>
-    <thead>
-        <tr>
-            <th>Race</th>
-            <th>Subraces</th>
-            <th>Publication</th>
-            <th>Page</th>
-            <th>Image</th>
-        </tr>
-    </thead>
-<tbody>
-<tr> <!--Turn this into a ngfor race-->
-  <td>{{race.name}}</td>
-  <td>{{race.subraces}}</td>
-  <td><abbr title="{{race.title}}">{{race.publication}}</abbr></td>
-  <td>{{race.page}}</td>
-  <td>
-      <img src="../../assets/{{race.img}}">
-  </td>
-</tr>
+d <tbody>
+    <tr ng-repeat="let race of races">
+        <!--Turn this into a ngfor race-->
+        <td>{{race.name}}</td>
+        <td>{{race.subraces}}</td>
+        <td><abbr title="{{race.title}}">{{race.publication}}</abbr></td>
+        <td>{{race.page}}</td>
+        <td>
+            <img src="../../assets/{{race.img}}">
+        </td>
+    </tr>
 </tbody>
-
-</table>
