@@ -12,9 +12,11 @@ import { BackgroundComponent } from './builder/header/background/background.comp
 import { ClassComponent } from './builder/header/class/class.component';
 import { LevelComponent } from './builder/header/level/level.component';
 import { RaceTableComponent } from './race-table/race-table.component';
-import { RaceRowComponent } from './race-row/race-row.component';
 import { RaceRowSubraceComponent } from './race-row-subrace/race-row-subrace.component';
 import { RaceRowRaceComponent } from './race-row-race/race-row-race.component';
+import { RaceRowPublicationComponent } from './race-row-publication/race-row-publication.component';
+import { RaceRowPageComponent } from './race-row-page/race-row-page.component';
+import { RaceRowImageComponent } from './race-row-image/race-row-image.component';
 
 
 
@@ -31,9 +33,11 @@ import { RaceRowRaceComponent } from './race-row-race/race-row-race.component';
     ClassComponent,
     LevelComponent,
     RaceTableComponent,
-    RaceRowComponent,
     RaceRowSubraceComponent,
-    RaceRowRaceComponent
+    RaceRowRaceComponent,
+    RaceRowPublicationComponent,
+    RaceRowPageComponent,
+    RaceRowImageComponent
   ],
   imports: [
     BrowserModule,
