@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Race } from '../race';
 
 @Component({
   selector: 'app-race-table',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./race-table.component.css']
 })
 export class RaceTableComponent implements OnInit {
+
+  @Input() public races: Race[];
 
   constructor() { }
 

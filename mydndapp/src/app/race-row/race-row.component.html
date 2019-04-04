@@ -10,12 +10,12 @@
 
 <tbody>
 <tr> <!--Turn this into a ngfor race-->
-  <td>Aarakocra</td>
-  <td>None</td>
-  <td><abbr title="Players Companion">PC</abbr></td>
-  <td>3</td>
+  <td>{{race.name}}</td>
+  <td>{{race.subraces}}</td>
+  <td>{{race.publication}}</td>
+  <td>{{race.page}}</td>
   <td>
-      <img src="../../img/races/aarakocraDnd.jpg">
+      <img src="{{race.img}}">
   </td>
 </tr>
 </tbody>
