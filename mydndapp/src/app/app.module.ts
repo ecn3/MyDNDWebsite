@@ -21,18 +21,15 @@ import { RaceRowComponent } from './race-row/race-row.component';
   declarations: [
     AppComponent,
     routingComponents,
-<<<<<<< HEAD
     HeaderComponent,
     NameComponent,
     RaceComponent,
     SubraceComponent,
     BackgroundComponent,
     ClassComponent,
-    LevelComponent
-=======
+    LevelComponent,
     RaceTableComponent,
     RaceRowComponent
->>>>>>> 521c79a86929f48cf572f704619416262cd836d1
   ],
   imports: [
     BrowserModule,
