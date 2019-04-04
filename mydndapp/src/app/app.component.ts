@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import data from '../assets/data/races.json';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'races';
+  public races = data;
 }

@@ -11,6 +11,8 @@ import { SubraceComponent } from './builder/header/subrace/subrace.component';
 import { BackgroundComponent } from './builder/header/background/background.component';
 import { ClassComponent } from './builder/header/class/class.component';
 import { LevelComponent } from './builder/header/level/level.component';
+import { RaceTableComponent } from './race-table/race-table.component';
+import { RaceRowComponent } from './race-row/race-row.component';
 
 
 
@@ -19,6 +21,7 @@ import { LevelComponent } from './builder/header/level/level.component';
   declarations: [
     AppComponent,
     routingComponents,
+<<<<<<< HEAD
     HeaderComponent,
     NameComponent,
     RaceComponent,
@@ -26,6 +29,10 @@ import { LevelComponent } from './builder/header/level/level.component';
     BackgroundComponent,
     ClassComponent,
     LevelComponent
+=======
+    RaceTableComponent,
+    RaceRowComponent
+>>>>>>> 521c79a86929f48cf572f704619416262cd836d1
   ],
   imports: [
     BrowserModule,
